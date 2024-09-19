@@ -29,5 +29,5 @@ if __name__ == "__main__":
 
     print("Considering New Situation: ", user_input_one, user_input_two, user_input_three)
     print("New Output data: ")
-    print(neural_network.think(np.array([user_input_one, user_input_two, user_input_three])))
+    print(np.round(neural_network.think(np.array([user_input_one, user_input_two, user_input_three]))))
     print("Wow, we did it!")
